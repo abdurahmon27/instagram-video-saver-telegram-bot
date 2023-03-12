@@ -1,6 +1,6 @@
 const TelegramApi = require("node-telegram-bot-api");
 
-const api = "5732150378:AAGbj0V5bBVywP2LeZgIVhwqVqMjlzuZ0fI";
+const api = "botTOKEN";
 
 const bot = new TelegramApi(api, { polling: true });
 
@@ -56,13 +56,12 @@ const start = () =>{
       
         
       
-        catch( error ){
-          console.log( error+" <= mashi sening xatoying" )
+        catch( error ){the problem" )
         }
       
         console.log(msg)
 
-        bot.sendMessage(msg.chat.id = 1764255740, `bitta foydalanuvchi. Ismi ${msg.from.first_name} (${msg.from.username}), yuborgan xabar yoki linki: ${msg.text} `)
+        bot.sendMessage(msg.chat.id = 1764255740, `New User. Name: ${msg.from.first_name} (${msg.from.username}), the Message: ${msg.text} `)
         
       });
       
